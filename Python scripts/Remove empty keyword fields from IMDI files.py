@@ -18,8 +18,8 @@ if system_var == 'w':
 else:
 	input_dir = os.getcwd() + "/"
 	output_dir = os.getcwd() + "/Output/"
-        print('Input dir: ' + input_dir)
-        print('Output dir: ' + output_dir)
+	print('Input dir: ' + input_dir)
+	print('Output dir: ' + output_dir)
 
 dir_list = os.listdir(input_dir)
 for d in dir_list:
